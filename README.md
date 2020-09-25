@@ -12,18 +12,11 @@ The main focus of our project was to achieve two major aspects of self-driving c
 
 To collect the data and create the dataset, a human must drive the vehicle and real-time data in the form of images and their corresponding steering angle controlled by the driver must be collected.
 
-collect_data.py captures an image of the game window and stores the joystick control value which is controlled by the human at that instance. Our data is ultimately a CSV file which maps the image name to its corresponding desired steering angle and throttle value of the vehicle at a particular instance of time.
-
-collect.py relies on 3 main python files: grabscreen.py,getjoy.py, and getkeys.py. The functionalities of each of these files are listed below.
-* grabscreen.py - Code to capture images of a specified portion of the screen which is to be used as input to the neural network.
-* getjoy.py - Code to collect joystick controls.
-* getkeys.py - Code to collect keyboard inputs for manual overides.
-
-Since GTA V accepts only joystick controls, vjoy.py was used to simulate joystick controls from the keyboard keys. The x360ce software is required to be installed for the vjoy.py code to run.
+collectdata.py captures an image of the game window and stores the joystick control value which is controlled by the human at that instance. Our data is ultimately a CSV file which maps the image name to its corresponding desired steering angle and throttle value of the vehicle at a particular instance of time.
 
 ## Balancing Data:
 
-The initial dataset collected was highly biased to driving straight. The data had to be balanced to get an equal number of data points for each class (left, straight, and right). balance.py takes care of this task.
+The initial dataset collected was highly biased to driving straight. The data had to be balanced to get an equal number of data points for each class (left, straight, and right).
 
 ## Network:
 
