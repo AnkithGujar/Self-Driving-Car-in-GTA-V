@@ -24,4 +24,10 @@ You will need to install the [Xbox 360 Controller Emulator](https://www.x360ce.c
 
 ## Dependencies ##
 
-All the libraries and their versions required to run the project are listed in the environment.yml file.
+All the libraries and their versions required to run the project are listed in the [environment.yml](https://github.com/AnkithGujar/Self-Driving-Car-in-GTA-V/blob/master/environment.yml) file.
+
+## Refrences ##
+
+Major inspiration for this project was [Sentdex/pygta5](https://github.com/Sentdex/pygta5). Check out his [youtube playlist](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeETZEOy4VdocT7TOjfSA8a) as well.
+
+The convolutional neural network architecture used in this project was taken from the paper [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316).
