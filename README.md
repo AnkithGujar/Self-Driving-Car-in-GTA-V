@@ -8,7 +8,13 @@ The main focus of our project was to achieve two aspects of self-driving cars, S
 
 ### Train your own model ###
 
-If you want to train your own model, there are a couple of things you need to do. First run the [collectdata.py](https://github.com/AnkithGujar/Self-Driving-Car-in-GTA-V/blob/master/collectdata.py) script and drive around in the game. The script basically collects the images and controller inputs you give and stores it in a .npy file. Once the data is collected, you will need to balance it. To train the model on the collected data, run the [train.py](https://github.com/AnkithGujar/Self-Driving-Car-in-GTA-V/blob/master/train.py) script. This script trains and saves the best model in the [models folder](https://github.com/AnkithGujar/Self-Driving-Car-in-GTA-V/tree/master/models). Now follow the steps mentioned in the next section to test the model.
+If you want to train your own model, there are a couple of things you need to do. First run the [collectdata.py](https://github.com/AnkithGujar/Self-Driving-Car-in-GTA-V/blob/master/collectdata.py) script and drive around in the game. The script basically collects the images and controller inputs you give and stores it in a .npy file. 
+
+Once the data is collected, you will need to balance it. 
+
+To train the model on the collected data, run the [train.py](https://github.com/AnkithGujar/Self-Driving-Car-in-GTA-V/blob/master/train.py) script. This script trains and saves the best model in the [models folder](https://github.com/AnkithGujar/Self-Driving-Car-in-GTA-V/tree/master/models). 
+
+Now follow the steps mentioned in the next section to test the model.
 
 ### Run pre-trained model ###
 
