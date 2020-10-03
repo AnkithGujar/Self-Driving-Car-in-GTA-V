@@ -31,3 +31,5 @@ All the libraries and their versions required to run the project are listed in t
 Major inspiration for this project was [Sentdex/pygta5](https://github.com/Sentdex/pygta5). Check out his [youtube playlist](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeETZEOy4VdocT7TOjfSA8a) as well.
 
 The convolutional neural network architecture used in this project was taken from the paper [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316).
+
+Pre-trained network and usage for object detection using YOLO V2 was taken from [thtrieu/darkflow](https://github.com/thtrieu/darkflow).
